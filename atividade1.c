@@ -37,4 +37,21 @@ int main(){
 Armazene também a situação do aluno: 1- Aprovado ou 2 Reprovado. Ao final o programa deve imprimir uma listagem contendo as notas,
 a média e a situação de cadaaluno em formato tabulado. Utilize quantos vetores forem necessários para armazenar os dados.*/
 int main(){
+  int i,z;
+  float vetor[15][1],med[15],cont;
+  for(i=0;i<15;i++){
+    printf("Digite as notas do %dº aluno",i+1);
+    scanf("%f",&vetor[i][0]);
+    scanf("%f",&vetor[i][1]);
+    med[i]=((cont=(vetor[i][1]+vetor[i][0]))/2;
+  }
+  for(z=0;z<15;z++){
+    print("Aluno %d\tnota 1:%.1f\tnota 2:%.1f\tmedia:%.1f\tsituacao:%d",
+  
+  
+  
+  
+  
+  
+  
   
