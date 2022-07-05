@@ -54,8 +54,23 @@ int main(){
     printf("\nAluno %d\t\tnota 1:%.1f\t\tnota 2: %.1f\t\tmedia:%.1f\t\tsituacao:%d",z+1,vetor[z][0],vetor[z][1],med[z],situa[z]);
   }
 }
-  
-  
+/*4. Construa um programa que permita armazenar o salário de 20 pessoas. Calcular e armazenar o novo salário sabendo-se que o reajuste foi de 8%. 
+Imprimir uma listagem numerada com o salário e o novo salário. Declare quantos vetores forem necessários.*/
+
+int main(){
+  float salario[20],reajust[20];
+  int i,z,x;
+  for(i=0;i<20;i++){
+    printf("Informe o salario do %dº pessoa:\n",i+1);
+    scanf("%f",&salario[i]);
+  }
+  for(z=0;z<20;z++){
+    reajust[z]=salario[z]+(salario[z]*0.08);
+  }
+  for(x=0;x<20;x++){
+    printf("o valor do reajuste no valor de 8%% da %dº pessoa foi:  %.2f\n",x+1,reajust[x]);
+  }
+} 
   
   
   
