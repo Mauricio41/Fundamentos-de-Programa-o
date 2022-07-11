@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
   int v1[10], v2[10], v3[10], i, j, cont=0;
