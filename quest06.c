@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-  int a,b;
-  float codigo[30],PC[30],PV[30],quant[30];
+  int a,b,list,c;
+  float codigo[30],PC[30],PV[30],quant[30],cod;
   for(a=0;a<30;a++){
     printf("Digite o codigo, quantidade, Preco de Venda, Preco de compra em sequencia do produto %d:\n",a+1);
     scanf("%f",&codigo[a]);
-    scanf("%d",&quant[a]);
-    scanf("%f",%PV[a]);
+    scanf("%f",&quant[a]);
+    scanf("%f",&PV[a]);
     scanf("%f",&PC[a]);
   }
   printf("voce deseja listar todos ou algum em especifico dos produtos?\n1-Todos\n2-Especifico");
